@@ -200,7 +200,7 @@ C:\Users\luojuan\qingyun\resources\static\clash>curl -x http://127.0.0.1:17890 h
   lang="en"
 ```
 
-![image-20250316230919332](file:///D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/the-craft-of-selfteaching/images/image-20250316230919332.png?lastModify=1742138077)
+![image-20250316230919332](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316230919332.png)
 
 ```
 commit 739ea4d0ea90099fb5a292ffd0a163db99d62551
@@ -522,13 +522,13 @@ git push -f origin master
 
 2. 初始git仓库
 
-   1. 打开要上传的md所在的文件夹--打开gitbash 右键就出现了 git选项 ![image-20250316164251608](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316164251608.png)
+   1. 打开要上传的md所在的文件夹--打开gitbash 右键就出现了 git选项 ![image-20250316164251608](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164251608.png)
 
       ```
       2 git init
       ```
 
-    ![image-20250316164444476](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316164444476.png)
+    ![image-20250316164444476](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164444476.png)
 
 3. **关联GitHub的远程仓库 git_using_report**
 
@@ -537,7 +537,7 @@ git push -f origin master
    git remote add origin https://github.com/luo57wuqi/git_using_report.git
    ```
 
-   ![image-20250316164655391](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316164655391.png)
+   ![image-20250316164655391](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164655391.png)
 
 4. **添加文件到换成 并且提交**1
 
@@ -566,7 +566,7 @@ git push -f origin master
    failed to push some refs to 'https://github.com/luo57wuqi/git_using_repor
    t.git' 
 
-    ![image-20250316165358712](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316165358712.png)
+    ![image-20250316165358712](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316165358712.png)
 
    ```
    新建的时候没有任何分支---导致推送到main失败
@@ -579,7 +579,7 @@ git push -f origin master
    # 强制推送并覆盖远程分支 使用 -u 参数关联远程分支并推送 -force 会覆盖远程仓库内容，确保远程分支与本地一致 
    ```
 
-   ![image-20250316170147802](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316170147802.png)![image-20250316170205021](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316170205021.png)
+   ![image-20250316170147802](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316170147802.png)![image-20250316170205021](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316170205021.png)
 
  **已经有了原创仓库 里面还有一个README.md文件**
 
@@ -603,7 +603,7 @@ _sever_failed_solve/.git/
 9 git push origin master  # 测试推送
 ```
 
-![image-20250316162427533](C:/Users/luojuan/AppData/Roaming/Typora/typora-user-images/image-20250316162427533.png)
+![image-20250316162427533](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316162427533.png)
 
 ## 需求2 拉取自学是门手艺-提交笔记-查看笔记日志
 
@@ -758,10 +758,135 @@ git reflog # 查看所有操作记录（包括已删除的提交
 4. **克隆仓库**：若本地已有`.git`目录，需先删除或选择其他路径再克隆。
 5. **合并历史冲突**：`--allow-unrelated-histories`是临时解决方案，长期应保持分支历史一致性。PS D:\编程jupyter\哎自学是门手艺\上手写程序\the-craft-of-selfteaching> ls ~/.ssh/id_ed25519.pub  #  id_rsa.pub
 
+## 需求5 版本恢复和查看某版本的内容--查看某个文件
 
 
 
-## 理论
+### **一、回到某个版本的文件**
+
+1. **查看文件的历史版本** 使用 `git log` 查看文件的提交历史，找到目标版本的提交哈希：
+
+   ```
+   git log <文件路径>
+   ```
+
+   示例：
+
+   ```
+    git log README.md
+   
+   >>>
+   commit d732549a9cb1c908e173fb17e592c2024928e97a (HEAD -> main, origin/main)
+   Author: luo57wuqi <3206178825@qq.com>
+   Date:   Sun Mar 16 23:23:41 2025 +0800
+   
+       增加git常用命令在最后一行 目前还不知都如何回到某个版本时候的文件 生成的哈希i
+   d 就可以重新恢复了 可以回到最新吗，就是我查看不恢复
+   
+   commit f865115694497ef55910bec0b94ae3671b7d0c9e
+   Author: luo57wuqi <3206178825@qq.com>
+   Date:   Sun Mar 16 23:18:33 2025 +0800
+   
+        使用前检测代理 更新SSH https传输
+   
+   commit 9722906f81ef3cdc3624aeda667b3830cf46d0bc
+   Author: luo57wuqi <3206178825@qq.com>
+   Date:   Sun Mar 16 18:24:10 2025 +0800
+   
+       写笔记 传修改
+   
+   commit 1675ce24dd70ea77613c779e6eabf7ab0f31f4d2
+   Author: luo57wuqi <3206178825@qq.com>
+   Date:   Sun Mar 16 17:06:51 2025 +0800
+   
+       更新第一次发送到远程仓库的版本
+   
+   commit 1c93158476a1edbc8107ef995da046e261f269e0
+   Author: luo57wuqi <3206178825@qq.com>
+   Date:   Sun Mar 16 16:51:09 2025 +0800
+   
+       first time to updata a local file
+   q # 退出版本查看
+   ```
+
+2. **查看文件的某个版本内容** 使用 `git show` 查看某次提交中文件的内容：
+
+   ```
+   git show <提交哈希>:<文件路径>
+   ```
+
+   示例：
+
+   ````
+   git show  1c93158476a1edbc8107ef995da046e261f269e0:README.md
+   
+   >>>
+   ## # git的使用方法
+   ## git是什么
+   [Git - is what?](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Co
+   ntrol)
+   What is “version control”, and why should you care?
+   Version control is a system that r**ecords changes to a file or set of files ove
+   r time** 记录历史更改
+    so that you can **recall specific versions later.**   恢复某个版本
+   
+   ## 1需求：
+   我有一个git配置代理的.md文件再xx目录下，
+   我有一个gihub账号3206178825@qq.com 名字是 luo57wuqi
+   2 如何发送呢？
+   ```
+   ```
+   ###  教程
+   ````
+
+3. **恢复文件的某个版本** 使用 `git checkout` 将文件恢复到某个版本：
+
+   ```
+   git checkout <提交哈希> -- <文件路径>
+   ```
+
+   示例：
+
+   ```
+   # 1 恢复 1c93158476a1edbc8107ef995da046e261f269e0 版本的 README.md
+   git checkout  1c93158476a1edbc8107ef995da046e261f269e0 -- README.md
+   
+   luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+   
+   # 2 这个时候又历史缓存了 提交到本控制中--方便恢复
+   
+   git commit -m "恢复 README.md 到 946b401 版本"
+   [main 54d8ee5] 恢复 README.md 到 946b401 版本
+    1 file changed, 10 insertions(+), 994 deletions(-)
+   
+   # 3 上传到远程仓库
+   git push origin main
+   
+   Enumerating objects: 5, done.
+   Counting objects: 100% (5/5), done.
+   Delta compression using up to 4 threads
+   Compressing objects: 100% (2/2), done.
+   Writing objects: 100% (3/3), 473 bytes | 473.00 KiB/s, done.
+   Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+   remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   To https://github.com/luo57wuqi/git_using_report.git
+      d732549..54d8ee5  main -> main
+   
+   ```
+
+4. **恢复后提交更改** 恢复文件后，需要提交更改以更新仓库状态：
+
+   ```
+   # 1 d732549a9cb1c908e173fb17e592c2024928e97a 恢复前端最新的版本
+   git checkout d732549a9cb1c908e173fb17e592c2024928e97a -- README.md
+   # 提交恢复历史
+   git commit -m "恢复 README.md 到 d732549a9cb1c908e173fb17e592c2024928e97a 版本"
+   ```
+
+![image-20250316234746155](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316234746155.png)
+
+## 理论git常用
+
 以下是 Git 常用命令的总结，涵盖日常开发中的主要操作场景：
 
 ---
@@ -1065,3 +1190,144 @@ git reflog # 查看所有操作记录（包括已删除的提交
 ---
 
 通过以上命令，你可以高效管理 Git 仓库。如果遇到具体问题，请提供更多上下文信息进一步分析。
+
+## 理论git版本控制
+
+### **一、回到某个版本的文件**
+
+1. **查看文件的历史版本** 使用 `git log` 查看文件的提交历史，找到目标版本的提交哈希：
+
+   ```
+   git log <文件路径>
+   ```
+
+   示例：
+
+   ```
+   git log README.md
+   ```
+
+2. **查看文件的某个版本内容** 使用 `git show` 查看某次提交中文件的内容：
+
+   ```
+   git show <版本哈希值>:<文件名>
+   ```
+
+   示例：
+
+   ```
+   git show 946b401:README.md
+   ```
+
+3. **恢复文件的某个版本** 使用 `git checkout` 将文件恢复到某个版本：
+
+   ```
+   git checkout <提交哈希> -- <文件路径>
+   ```
+
+   示例：
+
+   ```
+   git checkout 946b401 -- README.md
+   ```
+
+4. **恢复后提交更改** 恢复文件后，需要提交更改以更新仓库状态：
+
+   ```
+   git commit -m "恢复 README.md 到 946b401 版本"
+   ```
+
+### **二、回到最新版本**
+
+1. **查看最新版本的文件** 使用 `git checkout` 将文件恢复到最新版本：
+
+   ```
+   git checkout main -- <文件路径>
+   ```
+
+   示例：
+
+   ```
+   git checkout main -- README.md
+   ```
+
+2. **拉取远程最新代码** 如果远程仓库有更新，先拉取最新代码：
+
+   ```
+   git pull origin main
+   ```
+
+### **三、常用命令总结**
+
+| **操作**                   | **命令**                                |
+| -------------------------- | --------------------------------------- |
+| 初始化仓库                 | `git init`                              |
+| 克隆远程仓库               | `git clone <仓库URL>`                   |
+| 查看当前状态               | `git status`                            |
+| 添加文件到暂存区           | `git add <文件路径>` 或 `git add .`     |
+| 提交更改                   | `git commit -m "提交信息"`              |
+| 查看提交历史               | `git log`                               |
+| 查看文件的修改历史         | `git log <文件路径>`                    |
+| 查看某次提交的修改         | `git show <提交哈希>`                   |
+| 恢复文件的某个版本         | `git checkout <提交哈希> -- <文件路径>` |
+| 恢复到最新版本             | `git checkout main -- <文件路径>`       |
+| 创建分支                   | `git branch <分支名>`                   |
+| 切换分支                   | `git checkout <分支名>`                 |
+| 创建并切换分支             | `git checkout -b <分支名>`              |
+| 合并分支                   | `git merge <分支名>`                    |
+| 删除分支                   | `git branch -d <分支名>`                |
+| 拉取远程分支               | `git pull origin <分支名>`              |
+| 推送本地分支               | `git push origin <分支名>`              |
+| 查看远程仓库               | `git remote -v`                         |
+| 撤销工作区修改             | `git checkout -- <文件路径>`            |
+| 撤销暂存区修改             | `git reset HEAD <文件路径>`             |
+| 回退到某次提交（保留修改） | `git reset <提交哈希>`                  |
+| 回退到某次提交（丢弃修改） | `git reset --hard <提交哈希>`           |
+| 撤销某次提交的修改         | `git revert <提交哈希>`                 |
+| 查看操作日志               | `git reflog`                            |
+| 暂存当前修改               | `git stash`                             |
+| 恢复暂存的修改             | `git stash pop`                         |
+
+### **四、操作示例**
+
+#### **场景 1：恢复文件的某个版本**
+
+1. 查看文件历史：
+
+   ```
+   git log README.md
+   ```
+
+2. 恢复文件到指定版本：
+
+   ```
+   git checkout 946b401 -- README.md
+   ```
+
+3. 提交更改：
+
+   ```
+   git commit -m "恢复 README.md 到 946b401 版本"
+   ```
+
+#### **场景 2：恢复到最新版本**
+
+1. 恢复文件到最新版本：
+
+   ```
+   git checkout main -- README.md
+   ```
+
+2. 拉取远程最新代码：
+
+   ```
+   git pull origin main
+   ```
+
+### **五、注意事项**
+
+1. **备份数据** 在执行 `git reset --hard` 或 `git checkout` 前，确保工作目录和暂存区没有未保存的修改。
+2. **团队协作** 如果仓库是多人协作的，避免使用 `git reset --hard` 回退已推送的提交，优先使用 `git revert`。
+3. **找回丢失的提交** 如果不小心回退了提交，可以通过 `git reflog` 找回丢失的提交哈希。
+
+通过以上方法，你可以轻松地回到某个版本的文件，查看或复制代码，然后再恢复最新版本。如果仍有疑问，请提供具体场景进一步分析。
