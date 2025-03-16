@@ -757,3 +757,311 @@ git reflog # 查看所有操作记录（包括已删除的提交
 3. **分支管理**：在团队协作中，提前约定分支命名规则（如使用`main`），避免冲突。
 4. **克隆仓库**：若本地已有`.git`目录，需先删除或选择其他路径再克隆。
 5. **合并历史冲突**：`--allow-unrelated-histories`是临时解决方案，长期应保持分支历史一致性。PS D:\编程jupyter\哎自学是门手艺\上手写程序\the-craft-of-selfteaching> ls ~/.ssh/id_ed25519.pub  #  id_rsa.pub
+
+
+
+
+## 理论
+以下是 Git 常用命令的总结，涵盖日常开发中的主要操作场景：
+
+---
+
+### **一、仓库操作**
+1. **初始化仓库**  
+   ```bash
+   git init
+   ```
+
+2. **克隆远程仓库**  
+   ```bash
+   git clone <仓库URL>
+   ```
+
+3. **查看远程仓库**  
+   ```bash
+   git remote -v
+   ```
+
+4. **添加远程仓库**  
+   ```bash
+   git remote add origin <仓库URL>
+   ```
+
+5. **修改远程仓库地址**  
+   ```bash
+   git remote set-url origin <新仓库URL>
+   ```
+
+---
+
+### **二、提交与修改**
+1. **查看当前状态**  
+   ```bash
+   git status
+   ```
+
+2. **添加文件到暂存区**  
+   ```bash
+   git add <文件名>  # 添加指定文件
+   git add .        # 添加所有修改
+   ```
+
+3. **提交更改**  
+   ```bash
+   git commit -m "提交信息"
+   ```
+
+4. **查看提交历史**  
+   ```bash
+   git log          # 完整提交历史
+   git log --oneline  # 简化提交历史
+   ```
+
+5. **撤销工作区修改**  
+   ```bash
+   git checkout -- <文件名>  # 撤销指定文件的修改
+   ```
+
+6. **撤销暂存区修改**  
+   ```bash
+   git reset HEAD <文件名>  # 将文件从暂存区移回工作区
+   ```
+
+7. **修改最后一次提交**  
+   ```bash
+   git commit --amend
+   ```
+
+---
+
+### **三、分支操作**
+1. **查看分支**  
+   ```bash
+   git branch       # 查看本地分支
+   git branch -a    # 查看所有分支（包括远程分支）
+   ```
+
+2. **创建分支**  
+   ```bash
+   git branch <分支名>
+   ```
+
+3. **切换分支**  
+   ```bash
+   git checkout <分支名>
+   ```
+
+4. **创建并切换分支**  
+   ```bash
+   git checkout -b <分支名>
+   ```
+
+5. **合并分支**  
+   ```bash
+   git merge <分支名>  # 将指定分支合并到当前分支
+   ```
+
+6. **删除分支**  
+   ```bash
+   git branch -d <分支名>  # 删除本地分支
+   git push origin --delete <分支名>  # 删除远程分支
+   ```
+
+7. **重命名分支**  
+   ```bash
+   git branch -m <旧分支名> <新分支名>
+   ```
+
+---
+
+### **四、远程操作**
+1. **拉取远程分支**  
+   ```bash
+   git pull origin <分支名>
+   ```
+
+2. **推送本地分支**  
+   ```bash
+   git push origin <分支名>
+   ```
+
+3. **强制推送（慎用）**  
+   ```bash
+   git push -f origin <分支名>
+   ```
+
+4. **查看远程分支**  
+   ```bash
+   git branch -r
+   ```
+
+5. **拉取远程分支并创建本地分支**  
+   ```bash
+   git checkout -b <本地分支名> origin/<远程分支名>
+   ```
+
+---
+
+### **五、标签操作**
+1. **查看标签**  
+   ```bash
+   git tag
+   ```
+
+2. **创建标签**  
+   ```bash
+   git tag <标签名>  # 轻量标签
+   git tag -a <标签名> -m "标签信息"  # 附注标签
+   ```
+
+3. **推送标签到远程**  
+   ```bash
+   git push origin <标签名>  # 推送单个标签
+   git push origin --tags    # 推送所有标签
+   ```
+
+4. **删除标签**  
+   ```bash
+   git tag -d <标签名>  # 删除本地标签
+   git push origin --delete <标签名>  # 删除远程标签
+   ```
+
+---
+
+### **六、撤销与回退**
+1. **撤销工作区修改**  
+   ```bash
+   git restore <文件名>
+   ```
+
+2. **撤销暂存区修改**  
+   ```bash
+   git restore --staged <文件名>
+   ```
+
+3. **回退到指定提交**  
+   ```bash
+   git reset --hard <提交哈希>
+   ```
+
+4. **撤销某次提交**  
+   ```bash
+   git revert <提交哈希>
+   ```
+
+---
+
+### **七、其他实用命令**
+1. **查看文件修改差异**  
+   ```bash
+   git diff          # 查看工作区与暂存区的差异
+   git diff --cached  # 查看暂存区与最新提交的差异
+   git diff HEAD     # 查看工作区与最新提交的差异
+   ```
+
+2. **查看某次提交的修改**  
+   ```bash
+   git show <提交哈希>
+   ```
+
+3. **查看某文件的修改历史**  
+   ```bash
+   git log <文件名>
+   ```
+
+4. **查看某文件的详细修改记录**  
+   ```bash
+   git blame <文件名>
+   ```
+
+5. **清理未跟踪文件**  
+   ```bash
+   git clean -f  # 删除未跟踪的文件
+   git clean -fd # 删除未跟踪的文件和目录
+   ```
+
+---
+
+### **八、配置**
+1. **查看配置**  
+   ```bash
+   git config --list
+   ```
+
+2. **设置用户名和邮箱**  
+   ```bash
+   git config --global user.name "你的名字"
+   git config --global user.email "你的邮箱"
+   ```
+
+3. **设置默认编辑器**  
+   ```bash
+   git config --global core.editor "vim"
+   ```
+
+4. **设置代理**  
+   ```bash
+   git config --global http.proxy "http://127.0.0.1:8080"
+   git config --global https.proxy "https://127.0.0.1:8080"
+   ```
+
+5. **取消代理**  
+   ```bash
+   git config --global --unset http.proxy
+   git config --global --unset https.proxy
+   ```
+
+---
+
+### **九、高级操作**
+1. **合并多个提交**  
+   ```bash
+   git rebase -i HEAD~3  # 合并最近3次提交
+   ```
+
+2. **查看操作日志**  
+   ```bash
+   git reflog
+   ```
+
+3. **暂存当前修改**  
+   ```bash
+   git stash  # 暂存修改
+   git stash pop  # 恢复暂存的修改
+   ```
+
+4. **查看暂存列表**  
+   ```bash
+   git stash list
+   ```
+
+5. **应用指定暂存**  
+   ```bash
+   git stash apply stash@{1}
+   ```
+
+---
+
+### **十、常见问题**
+1. **解决冲突**  
+   - 合并或拉取时出现冲突，手动修改冲突文件后执行：
+     ```bash
+     git add <冲突文件>
+     git commit
+     ```
+
+2. **恢复误删分支**  
+   - 通过 `git reflog` 找到误删分支的提交哈希，然后创建新分支：
+     ```bash
+     git checkout -b <分支名> <提交哈希>
+     ```
+
+3. **修复提交信息**  
+   - 修改最后一次提交信息：
+     ```bash
+     git commit --amend
+     ```
+
+---
+
+通过以上命令，你可以高效管理 Git 仓库。如果遇到具体问题，请提供更多上下文信息进一步分析。
