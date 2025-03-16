@@ -200,7 +200,7 @@ C:\Users\luojuan\qingyun\resources\static\clash>curl -x http://127.0.0.1:17890 h
   lang="en"
 ```
 
-![image-20250316230919332](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316230919332.png)
+![image-20250316230919332](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316230919332.png)
 
 ```
 commit 739ea4d0ea90099fb5a292ffd0a163db99d62551
@@ -522,13 +522,13 @@ git push -f origin master
 
 2. 初始git仓库
 
-   1. 打开要上传的md所在的文件夹--打开gitbash 右键就出现了 git选项 ![image-20250316164251608](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164251608.png)
+   1. 打开要上传的md所在的文件夹--打开gitbash 右键就出现了 git选项 ![image-20250316164251608](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316164251608.png)
 
       ```
       2 git init
       ```
 
-    ![image-20250316164444476](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164444476.png)
+    ![image-20250316164444476](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316164444476.png)
 
 3. **关联GitHub的远程仓库 git_using_report**
 
@@ -537,7 +537,7 @@ git push -f origin master
    git remote add origin https://github.com/luo57wuqi/git_using_report.git
    ```
 
-   ![image-20250316164655391](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316164655391.png)
+   ![image-20250316164655391](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316164655391.png)
 
 4. **添加文件到换成 并且提交**1
 
@@ -566,7 +566,7 @@ git push -f origin master
    failed to push some refs to 'https://github.com/luo57wuqi/git_using_repor
    t.git' 
 
-    ![image-20250316165358712](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316165358712.png)
+    ![image-20250316165358712](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316165358712.png)
 
    ```
    新建的时候没有任何分支---导致推送到main失败
@@ -579,7 +579,7 @@ git push -f origin master
    # 强制推送并覆盖远程分支 使用 -u 参数关联远程分支并推送 -force 会覆盖远程仓库内容，确保远程分支与本地一致 
    ```
 
-   ![image-20250316170147802](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316170147802.png)![image-20250316170205021](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316170205021.png)
+   ![image-20250316170147802](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316170147802.png)![image-20250316170205021](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316170205021.png)
 
  **已经有了原创仓库 里面还有一个README.md文件**
 
@@ -603,7 +603,7 @@ _sever_failed_solve/.git/
 9 git push origin master  # 测试推送
 ```
 
-![image-20250316162427533](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316162427533.png)
+![image-20250316162427533](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316162427533.png)
 
 ## 需求2 拉取自学是门手艺-提交笔记-查看笔记日志
 
@@ -883,7 +883,7 @@ git reflog # 查看所有操作记录（包括已删除的提交
    git commit -m "恢复 README.md 到 d732549a9cb1c908e173fb17e592c2024928e97a 版本"
    ```
 
-![image-20250316234746155](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/image-20250316234746155.png)
+![image-20250316234746155](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316234746155.png)
 
 ## 理论git常用
 
