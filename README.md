@@ -381,22 +381,7 @@ ls ~/.ssh/id_ed25519.pub  #  id_rsa.pub
 ls : 找不到路径“C:\Users\luojuan\.ssh\id_ed25519.pub”，因为该路径不存在。
 
 # 生成ssH密钥
-ssh-keygen -t ed25519 -C "3206178825@qq.com"
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (C:\Users\luojuan/.ssh/id_ed25519): yes
-Enter passphrase (empty for no passphrase):
-Your identification has been saved in yes
-Your public key has been saved in yes.pub
-The key fingerprint is:
-The key's randomart image is:
-|=.               |
-|+  = + .         |
-|..+ * = .        |
-|oo * * .S. .     |
-|. = O +. .. .    |
-|.o * *o+   E     |
-|+ =.+o=          |
-|o=+=o.           |
+
 +----[SHA256]-----+
 
 
@@ -436,7 +421,7 @@ Invalid parameter "(R,W)"
 
 # 获得ssh文件
 cat ~/.ssh/id_ed25519.pub
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJeU6dR1Wpu75j/wnXYvhDJxEF4KH/KvAQ2bvAyoEqeL 3206178825@qq.com
+
 
 
 # 和github通讯
@@ -563,7 +548,7 @@ git push -f origin master
 
    error: src refspec main does not match anyerror: **本地分支与远程分支名称不匹配**
 
-   failed to push some refs to 'https://github.com/luo57wuqi/git_using_repor
+   failed to push some refs to 'https://github.com/luo57wuqi/git_using_reporha
    t.git' 
 
     ![image-20250316165358712](D:/%E7%BC%96%E7%A8%8Bjupyter/%E5%93%8E%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA/%E4%B8%8A%E6%89%8B%E5%86%99%E7%A8%8B%E5%BA%8F/git_using_report/images/image-20250316165358712.png)
