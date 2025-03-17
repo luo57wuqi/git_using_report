@@ -1,0 +1,42 @@
+rt (main)
+$ git add testgitproxy.txt
+
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+$ git commit -m "测试是否需要每次使用git 都有重更新设置代理端口"
+[main d3a841a] 测试是否需要每次使用git 都有重更新设置代理端口
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testgitproxy.txt
+
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+测试说明不是 我的电脑有时候回无法上网，需要在看那个网络设置 链接 的把lan关闭。 这时候我的梯子依旧是打开的--并不影响我git 上传内容
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+$ git push origin/main
+
+fatal: 'origin/main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+$
+
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 390 bytes | 195.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/luo57wuqi/git_using_report.git
+   a4b93fd..d3a841a  main -> main
+
+luojuan@▒▒▒▒ĵ▒▒▒ MINGW64 /d/编程jupyter/哎自学是门手艺/上手写程序/git_using_report (main)
